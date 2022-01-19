@@ -1,0 +1,554 @@
+body{
+	font-family:Calibri,sans-serif;
+	color:#000000;
+	font-size:1.3em;
+}
+
+.header{
+	background:#DFDFDF;
+	transition: all 0.5s ease-in;
+	opacity:0.97;
+	text-align: center;
+	display: flex;
+	top:0;
+	width:100%;
+}
+
+.header-sticky{
+	background:#B90D09;
+	position: sticky;
+}
+
+#logo_img{
+	width:20%;
+	margin-top: 1%;
+	margin-left: 1%;
+	display: inline-block;
+	float: left;
+}
+
+#logo{
+	width: 100%;
+}
+
+#inicio{
+	background-image:url('../images/diseno.jpg');
+	background-size:cover;
+}
+
+#servicios{
+	background-image:url('../images/Filosofia.png');
+	background-size:cover;
+}
+
+#Aviso-privacidad{
+	background: #DFDFDF;
+}
+
+.bloques{
+	padding: 0% 20%;
+}
+
+.aviso{
+	text-align: justify;
+	word-wrap: break-word;
+}
+
+h1{
+	display:none;
+}
+
+section{
+	padding: 0% 10%;
+	text-align:center;
+}
+
+#b1 h2{
+	font-size:180%;
+	text-align:center;
+	color:#B90D09;
+	background: #DDDBDD;
+	width: 30%;
+	border-radius: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#b2 h2{
+	font-size:180%;
+	text-align:center;
+	color: #DDDBDD;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#b1 p{
+	text-align:center;
+	background:#DDDBDD;
+	padding:2%;
+	border-radius:8px;
+}
+
+#b1 p:hover{
+	background: #B90D09;
+	color:#DDDBDD;
+	/* width:100.4%; */
+	opacity: 0.9;
+	transition: all 1s;
+}
+
+#b2 p{
+	text-align:justify;
+	color: #DDDBDD;
+}
+
+#b2 .bloques{
+	background: #B90D09;
+	padding: 0.5% 5% 5%;
+	border-radius: 8px;
+	transition: all 1s ease-out;
+}
+
+#b2 .bloques:hover{
+	background: #1c0c54;
+}
+
+.images-container{
+	/* border: 2px solid green; */
+	display: inline-block;
+	width:45%;
+	/* margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto; */
+	margin:auto;
+}
+
+.imagenes{
+	width: 100%;
+	box-shadow: 0px 0px 0px 5px #FFF,
+		0 15px 40px;
+}
+
+.juntos{
+	display: flex;
+}
+
+.juntos-texto{
+	/* border: 2px solid green; */
+	display:inline-block;
+	width:45%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Aquí empieza lo de los valores */
+section span{
+	padding:0% 3%;
+}
+
+span{
+	display:inline-block;
+	text-align: center;
+	color:#B90D09;
+	/* width:200px; */
+	width:20%;
+}
+
+span p{
+	color: #000;
+}
+
+.priv li{
+	font-weight: normal ;
+	list-style: disc;
+}
+/* Aquí terminan los valores */
+/* separador */
+.separador{
+	width: 5vw;
+}
+/* Termina separador */
+/* Todo lo relacionado a footer */
+footer{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+	background:#B90D09;
+	color:#DDDBDD;
+	clear:both;
+	opacity: 0.97;
+}
+
+.footer_title{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.footer_container{
+     width: 100%;
+     display: flex;
+}
+
+.footer_form{
+     width:40%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+label, input, textarea{
+     width:100%;
+}
+.footer_content{
+	width: 60%;
+     height: 50%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.contact_details{
+     width: 90%;
+}
+.footer_redes{
+     width: 100%;
+}
+.footer_final{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+footer a{
+     text-decoration: none;
+     color: #DDDBDD;
+}
+
+.footer_redes{
+     display: flex;
+     width: 100%;
+}
+
+.redes{
+	width:20%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.redes a{
+     color: #1c0c54;
+}
+/* Aquí termina lo de footer */
+
+/*Todo lo de nav y header*/
+.header{
+	background:#DFDFDF;
+	transition: all 0.5s ease-in;
+	opacity:0.97;
+	text-align: center;
+	display: flex;
+	top:0;
+	width:100vw;
+  height: 15vh;
+}
+
+.logo{
+     width: 25vw;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#logo{
+     width: 90%;
+}
+
+.header-sticky{
+	background:#B90D09;
+	position: fixed;
+}
+/* Empieza todo lo de nav */
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 55vw;
+
+}
+
+nav ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+nav a{
+	text-decoration:none;
+	text-transform:capitalize;
+	color:#000000;
+}
+
+.a-sticky{
+	color:#DDDBDD;
+}
+
+li{
+	list-style:none;
+	font-weight:bold;
+
+}
+
+nav ul li{
+	display:inline-block;
+	width:250px;
+	text-align:center;
+	border-right:2px solid black;
+	padding-left:10px;
+	font-size: 1.3em;
+}
+
+nav li:hover{
+	background-color:#EEECEE;
+	border-radius:3px;
+}
+
+.lihov-sticky:hover {
+	background-color:#990D09;
+}
+
+nav ul li ul{
+	display:none;
+	position:absolute;
+}
+
+nav ul li ul li{
+	padding-left:8px;
+	margin-left:-40px;
+	font-size:0.9em;
+}
+
+nav li:hover ul{
+	display:block;
+	background:#DDDBDD;
+	width:220px;
+	margin-left:-10px;
+	border-radius:3px;
+}
+
+nav li:hover .ulhov-sticky{
+	display:block;
+	background:#B90D09;
+	width:220px;
+	margin-left:-10px;
+	border-radius:3px;
+}
+
+nav li ul li{
+	display:block;
+	text-align:left;
+	padding:2% 0%;
+	border-right:none;
+}
+
+/* Aquí termina todo lo de nav */
+
+.header_redes{
+	display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 25vw;
+     padding-left: 5%;
+     height: 100%;
+		 /* border: 2px solid black; */
+}
+.redes_nav a{
+     color: #1c0c54;
+}
+.redes_nav{
+     width:25%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+/* Termina nav y header*/
+
+
+/* Aquí empieza el slider del inicio */
+.container-slider{
+	width: 50%;
+	/* max-width: 900px; */
+	margin: auto;
+	/*Esto es para que solo se vea una imagen en lugar de las 4*/
+	overflow: hidden;
+	box-shadow: 0 0 0 5px #FFF,
+			0 15px 40px;
+/*Ese segundo renglón fue para agregarle una sombra, es opcional*/
+}
+
+.slider{
+	display: flex;
+	width:400%;/*Porque tenemos 4 imagenes, si tuvieramos 5 pondríamos 500% jeje*/
+	height: 80vh;
+	margin-left: -100%;
+}
+
+.slider__section{
+	width: 100%;/*100% es el tamaño de una sola imagen*/
+}
+
+.slider__img{
+	display: block;
+	/* width: 100%; */
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	/*Esto es para que las imagenes no se distorsionen*/
+	object-fit: cover;
+}
+
+.slider__btn{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	background: rgba(255, 255, 255, 0.7);
+	/*A partir de aquí es para centrarlo*/
+	top: 65%;
+	/*El transform es para que se vaya para arriba 50%*/
+	transform: translateY(-50%);
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Calibri;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.slider__btn:hover{
+	background: #FFF;
+}
+
+.slider__btn--left{
+	left: 20px;
+}
+
+.slider__btn--right{
+	right: 20px;
+}
+/* Aquí termina el slider del inicio */
+.box{
+	width: 100%;
+}
+
+
+@media screen and (max-width:600px) {
+
+span{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+
+.juntos{
+	display: block;
+	width:100%;
+}
+
+.images-container, .juntos-texto{
+	display: block;
+	width: 100%;
+}
+
+.box{
+	display: block;
+	clear:both;
+}
+
+.box2{
+	display: block;
+	clear:both;
+	width:100%;
+}
+
+p a{
+	display: block;
+	width: 100%;
+	word-wrap: break-word;
+}
+
+#b1 h2{
+	width:100%;
+}
+
+#b2 a h2{
+	width: 100%;
+	font-size: 120%;
+	word-wrap: break-word;
+}
+
+*{
+     word-break: break-all;
+}
+
+.generalcontainer{
+     flex-direction: column;
+}
+.container_text,.container-slider{
+     width: 100%;
+}
+.footer_container{
+     flex-direction: column;
+}
+.footer_form{
+     width:100%;
+}
+.footer_content{
+     width: 100%;
+}
+.footer_redes{
+     flex-direction: column;
+}
+.redes{
+     width: 100%;
+}
+
+.header{
+	flex-direction: column;
+	height: auto;
+	width: 100%;
+}
+
+.header-sticky{
+	position: static;
+}
+
+.logo{
+	width: 100%;
+}
+
+.header_redes{
+	padding-top: 5%;
+	width: 100%;
+	flex-direction: column;
+}
+
+nav{
+	width: 100%;
+}
+
+nav ul{
+	flex-direction: column;
+	width: 100%;
+}
+}
