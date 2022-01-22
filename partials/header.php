@@ -4,23 +4,23 @@
     </div>
 
     <div class="header_redes">
-      <div class="redes_nav">
-        <a href="https://www.youtube.com/channel/UCrH-GU10xq1IQShqwHs29fg" target="blank">
+      <div class="icon_redes">
+        <a class="iconsa" href="https://www.youtube.com/channel/UCrH-GU10xq1IQShqwHs29fg" target="blank">
           <i class="fab fa-youtube fa-lg"></i>
         </a>
       </div>
-      <div class="redes_nav">
-        <a href="https://www.linkedin.com/company/cuatimar-construcciones" target="blank">
+      <div class="icon_redes">
+        <a class="iconsa" href="https://www.linkedin.com/company/cuatimar-construcciones" target="blank">
           <i class="fab fa-linkedin fa-lg"></i>
         </a>
       </div>
-      <div class="redes_nav">
-        <a href="mailto:contacto@cuatimarconstrucciones.com.mx?Subject=Cotización" target="blank">
+      <div class="icon_redes">
+        <a class="iconsa" href="mailto:contacto@cuatimarconstrucciones.com.mx?Subject=Cotización" target="blank">
           <i class="fas fa-at fa-lg"></i>
         </a>
       </div>
-      <div class="redes_nav">
-        <a href="tel:+527225443902">
+      <div class="icon_redes">
+        <a class="iconsa" href="tel:+527225443902">
           <i class="fas fa-phone-square-alt fa-lg"></i>
         </a>
       </div>

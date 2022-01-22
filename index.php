@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Inicio</title>
-<!-- <link rel="stylesheet" href="css/stylesheet.css"> -->
 <link rel="stylesheet" href="css/styles.css">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -25,24 +24,6 @@
 
 <main>
 
-<div class="container-slider">
-	<div class="slider" id="slider">
-		<div class="slider__section">
-			<img src="Cuatimar_images/Reputacion.jpeg" alt="La recompensa de un trabajo bien hecho" class="slider__img">
-		</div>
-		<div class="slider__section">
-			<img src="Cuatimar_images/Trabajo_equipo.jpeg" alt="Trabajo en equipo" class="slider__img">
-		</div>
-		<div class="slider__section">
-			<img src="Cuatimar_images/Exito.jpeg" alt="Deja que tu exito haga todo el ruido" class="slider__img">
-		</div>
-		<div class="slider__section">
-			<img src="Cuatimar_images/Un_dia_seguro.jpeg" alt="Un dia seguro" class="slider__img">
-		</div>
-	</div>
-	<div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
-	<div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
-</div>
 
 <section id="b1">
 	<br>
