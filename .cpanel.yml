@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/cuatimar/public_html/
     - /bin/cp -R index.php $DEPLOYPATH
+    - /bin/cp -R css/stylesheet.css $DEPLOYPATH
