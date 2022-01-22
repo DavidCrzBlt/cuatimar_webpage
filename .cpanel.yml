@@ -3,4 +3,14 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/cuatimar/public_html/
     - /bin/cp -R index.php $DEPLOYPATH
-    - /bin/cp -R css/stylesheet.css $DEPLOYPATH
+    - /bin/cp -R aviso_priv.html $DEPLOYPATH
+    - export DEPLOYPATHCSS = /home/cuatimar/public_html/css
+    - /bin/cp -R stylesheet.css $DEPLOYPATHCSS
+    - /bin/cp -R styles.css $DEPLOYPATHCSS
+    - /bin/cp -R new.css $DEPLOYPATHCSS
+    - export DEPLOYPATHJS = /home/cuatimar/public_html/js
+    - /bin/cp -R app.js $DEPLOYPATHJS
+    - /bin/cp -R new_app.js $DEPLOYPATHJS
+    - export DEPLOYPATHPARTIALS = /home/cuatimar/public_html/partials
+    - /bin/cp -R footer.php $DEPLOYPATHPARTIALS
+    - /bin/cp -R header.php $DEPLOYPATHPARTIALS
