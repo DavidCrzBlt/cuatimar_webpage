@@ -4,7 +4,7 @@
 .icon_redes{width:20%; text-align: center;}
 .iconsa{color: #FCC000; text-decoration: none;width:20%; text-align: center;}
 .iconsa:hover{color:#70AD47;}
-header img{max-width: 110px;width:100%;}
+header img{max-width: 150px;width:100%;}
 header{width:100%;display: flex;align-items: center;}
 header nav{z-index:1000;max-width: 1000px; width: 95%; margin: 20px auto;}
 header nav ul{list-style: none;}
