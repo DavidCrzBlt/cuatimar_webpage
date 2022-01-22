@@ -1,9 +1,10 @@
 .menu_bar{display: none;}
+.logo{width:15vw; display: flex; align-items: center; justify-content: center;}
 .header_redes{width: 25vw; display: flex; align-items: center;}
 .icon_redes{width:20%; text-align: center;}
 .iconsa{color: #FCC000; text-decoration: none;width:20%; text-align: center;}
 .iconsa:hover{color:#70AD47;}
-header img{max-width: 100%;width:100px;}
+header img{max-width: 110px;width:100%;}
 header{width:100%;display: flex;align-items: center;}
 header nav{z-index:1000;max-width: 1000px; width: 95%; margin: 20px auto;}
 header nav ul{list-style: none;}
@@ -17,6 +18,7 @@ header nav ul li .children li a{display: block;}
 
 @media screen and (max-width:800px){
 
+    .logo{display: none;}
     .menu_bar{display: flex;width: 100vw;position: -webkit-sticky;position: sticky;top:0;background: #ED7D31;height: 15vh;}
     .menu_bar .bt-menu{display: block;padding: 20px;color: #FFF;overflow:hidden;
       font-size: 25px;font-weight: bold;text-decoration: none;}
