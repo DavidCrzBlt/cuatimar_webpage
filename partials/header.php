@@ -36,8 +36,8 @@
     <nav>
       <ul>
         <li><a href="index" class="menu_links">Inicio</a></li>
-        <li><a href="catalogo" class="menu_links">Servicios</a></li>
-        <li><a href="contacto" class="menu_links">Contacto</a></li>
+        <li><a href="Servicios" class="menu_links">Servicios</a></li>
+        <li><a href="#Contacto" class="menu_links">Contacto</a></li>
       </ul>
     </nav>
   </header>
