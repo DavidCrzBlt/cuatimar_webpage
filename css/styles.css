@@ -35,8 +35,8 @@ footer .footer_container .header_redes a{color: #DFDFDF;}
     .menu_bar i{float: right;font-size: 40px;color: #1c0c54;text-transform: uppercase;
       margin-top: 15px;margin-right: 10px;}
     .header_redes{display: none;}
-    header nav{width: 60%;position: fixed;right:100%;margin: 0;overflow: scroll;top:16vh;}
-    header nav ul li{display: block;border-bottom: 1px solid rgba(255, 255, 255, 0.5);}
+    header nav{width: 60%;position: fixed;right:100%;margin: 0;overflow: scroll;top:16vh; background-color: #DFDFDF;}
+    header nav ul li{display: block;border-bottom: 1px solid rgba(250, 0, 0, 0.2);}
     header nav ul li a{display: block;}
     header nav ul li .children{width: 100%;position: relative;}
     header nav ul li:hover .children{display: none;}
