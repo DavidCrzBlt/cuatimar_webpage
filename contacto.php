@@ -16,7 +16,7 @@
 <body>
 
 <?php require 'partials/header.php'; ?>
-
+<br>
 <div>
     <form method="post" action="php/email.php">
         <legend>Solicita tu presupuesto</legend>
@@ -39,7 +39,7 @@
     </form>
 </div>
 
-
+<br>
 <?php require 'partials/footer.php'; ?>
 
 <script src="https://kit.fontawesome.com/6c35e6223b.js" crossorigin="anonymous"></script>
