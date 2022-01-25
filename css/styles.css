@@ -24,6 +24,9 @@ footer .footer_container div p{color:#DFDFDF; font-weight: bold;}
 footer .footer_container div p a{color: #DFDFDF;}
 footer .footer_container .header_redes a{color: #DFDFDF;}
 
+div form {width: 80%; border-radius: 8px;background-color: #DFDFDF;box-shadow: rgba(255,255,255,0.1);}
+div form legend{text-transform: uppercase;font-weight: bold;}
+
 @media screen and (max-width:800px){
 
     .logo{display: none;}

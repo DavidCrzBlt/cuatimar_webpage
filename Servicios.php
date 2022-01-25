@@ -8,6 +8,8 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="css/styles.css">
+     <script src="http://code.jquery.com/jquery-latest.js"></script>
+     <script type="text/javascript" src="js/header_responsive.js"></script>
      <title>Servicios</title>
 </head>
 <body>
