@@ -17,7 +17,11 @@ header nav ul li .children li{display: block;overflow: hidden;border-bottom: 1px
 header nav ul li .children li a{display: block;}
 
 footer{background-color: #990D09;}
-footer div div{width: 40%;margin-left: auto;margin-right: auto;}
+footer .footer_container{display: flex;}
+footer .footer_container div{width: 40%;margin-left: auto;margin-right: auto;}
+footer .footer_container div p{color:#DFDFDF;}
+footer .footer_container div p a{color: #DFDFDF;}
+footer .footer_container .header_redes a{color: #DFDFDF;}
 
 @media screen and (max-width:800px){
 
@@ -35,5 +39,7 @@ footer div div{width: 40%;margin-left: auto;margin-right: auto;}
     header nav ul li a{display: block;}
     header nav ul li .children{width: 100%;position: relative;}
     header nav ul li:hover .children{display: none;}
-  
+      
+    footer .footer_container{flex-direction: column;}
+    footer .footer_container div{word-wrap: break-word;}
   }
