@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto</title>
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<?php require 'partials/header.php'; ?>
+
+<div>
+    <form method="post" action="php/email.php">
+        <legend>Solicita tu presupuesto</legend>
+        <br>Déjanos tus datos para contactarte<br>
+        <br>
+        <label for="nombre">Nombre:</label><input type="text" id="nombre" name="nombre" pattern="[A-Za-zW+]{3,}" required>
+        <br>
+        <label for="empresa">Empresa:</label><input type="text" id="empresa" name="empresa" required>
+        <br>
+        <label for="telefono">Teléfono:</label><input type="text" name="telefono" id="telefono" pattern="[0-9]{10}" placeholder="7225443902">
+        <br>
+        <label for="email">Dirección de email:</label>
+        <input type="email" id="email" name="email" placeholder="me@me.com" required>
+        <br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" cols="30" rows="8"></textarea>
+        <br>
+        <input type="submit" id="submit" value="Contáctanos">
+        <br>
+    </form>
+</div>
+
+
+<?php require 'partials/footer.php'; ?>
+
+<script src="https://kit.fontawesome.com/6c35e6223b.js" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
