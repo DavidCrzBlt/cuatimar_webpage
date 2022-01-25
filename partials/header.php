@@ -35,7 +35,12 @@
 
     <nav>
       <ul>
-        <li><a href="index" class="menu_links">Inicio</a></li>
+        <li>
+          <a href="index" class="menu_links">Inicio</a>
+          <ul class="children">
+            <li><a href="documents/Curriculum empresarial oficial.pdf">Curriculum empresarial</a></li>
+          </ul>
+        </li>
         <li><a href="Servicios" class="menu_links">Servicios</a></li>
         <li><a href="contacto" class="menu_links">Contacto</a></li>
       </ul>
