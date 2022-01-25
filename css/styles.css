@@ -1,3 +1,4 @@
+*{font-family: 'Open Sans', sans-serif;}
 .menu_bar{display: none;}
 .logo{width:15vw; display: flex; align-items: center; justify-content: center;}
 .header_redes{width: 25vw; display: flex; align-items: center;}
