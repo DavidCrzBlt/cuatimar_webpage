@@ -36,8 +36,9 @@ div form textarea{width:60%;}
 .contenido{width: 90%;margin-left: auto; margin-right: auto;}
 .contenido div{background-color: #DBDBDB; color: #990D09; opacity: 0.9; border-radius: 8px;}
 .contenido div h2{text-align: center;font-weight: bold;}
-.contenido div p{text-align: justify; padding: 8px;}
-.contenido div .valores{display: flex;text-align: center; width: 20%;}
+.contenido div p{text-align: justify; padding: 15px;}
+.contenido div .valores{display: flex;text-align: center; width: 80%;margin-left: auto;margin-right: auto;}
+.contenido div .valores span{text-align: center;}
 
 
 @media screen and (max-width:800px){
@@ -59,4 +60,5 @@ div form textarea{width:60%;}
       
     footer .footer_container{flex-direction: column;}
     footer .footer_container div{word-wrap: break-word; width: 80%;}
+    .contenido div .valores{display: inline-block;}
   }
