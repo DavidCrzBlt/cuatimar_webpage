@@ -33,6 +33,10 @@ div form textarea{width:60%;}
 
 #inicio{background-image: url("../images/diseno.jpg"); background-size: contain; background-repeat: no-repeat;}
 
+.contenido{width: 90%;margin-left: auto; margin-right: auto;}
+.contenido div{background-color: #DBDBDB; color: #990D09; opacity: 0.9;}
+.contenido div h2{text-align: center;font-weight: bold;}
+
 @media screen and (max-width:800px){
 
     .logo{display: none;}
