@@ -33,12 +33,12 @@ div form textarea{width:60%;}
 
 #inicio{background-image: url("../images/diseno.jpg"); background-size: contain; background-repeat: no-repeat;}
 
-.contenido{width: 90%;margin-left: auto; margin-right: auto; padding: 8px;}
+.contenido{width: 90%;margin-left: auto; margin-right: auto;}
 .contenido div{background-color: #DBDBDB; color: #990D09; opacity: 0.9; border-radius: 8px;}
 .contenido div h2{text-align: center;font-weight: bold;}
-.contenido div p{text-align: justify;}
+.contenido div p{text-align: justify; padding: 8px;}
 .contenido div .valores{display: flex;text-align: center; width: 20%;}
-.contenido div .valores span{text-align: center; width: 20%;}
+
 
 @media screen and (max-width:800px){
 
