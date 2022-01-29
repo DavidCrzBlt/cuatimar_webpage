@@ -31,6 +31,8 @@ div form label{font-weight: bold; text-transform: capitalize;}
 div form input[type="submit"]{text-transform: capitalize;font-weight: bold;box-sizing: border-box; padding: 12px 20px;text-align: center;}
 div form textarea{width:60%;}
 
+#inicio{background-image: url("images/diseno.jpg"); background-size: contain; background-repeat: no-repeat;}
+
 @media screen and (max-width:800px){
 
     .logo{display: none;}
@@ -49,5 +51,5 @@ div form textarea{width:60%;}
     header nav ul li:hover .children{display: none;}
       
     footer .footer_container{flex-direction: column;}
-    footer .footer_container div{word-wrap: break-word;}
+    footer .footer_container div{word-wrap: break-word; width: 80%;}
   }

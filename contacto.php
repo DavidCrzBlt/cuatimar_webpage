@@ -26,10 +26,10 @@
         <br>
         <label for="empresa">Empresa:</label><input type="text" id="empresa" name="empresa" required>
         <br>
-        <label for="telefono">Teléfono:</label><input type="text" name="telefono" id="telefono" pattern="[0-9]{10}" placeholder="7225443902">
+        <label for="telefono">Teléfono:</label><input type="text" name="telefono" id="telefono" pattern="[0-9]{10}">
         <br>
         <label for="email">Dirección de email:</label>
-        <input type="email" id="email" name="email" placeholder="me@me.com" required>
+        <input type="email" id="email" name="email" required>
         <br>
         <label for="mensaje">Mensaje:</label>
         <textarea id="mensaje" name="mensaje" cols="30" rows="8"></textarea>
