@@ -36,11 +36,13 @@
 		</div>
 		<div>
 			<h2>Valores</h2>
-				<span><p>Compromiso</p><i class="fas fa-handshake fa-2x"></i></span>
-				<span><p>Responsabilidad</p><i class="fas fa-list-ul fa-2x"></i></span>
-				<span><p>Seguridad</p><i class="fas fa-hard-hat fa-2x"></i></span>
-				<span><p>Integridad</p><i class="far fa-hand-paper fa-2x"></i></span>
-				<span><p>Trabajo en equipo</p><i class="fas fa-users fa-2x"></i></span>
+				<div class="valores">
+					<span><p>Compromiso</p><i class="fas fa-handshake fa-2x"></i></span>
+					<span><p>Responsabilidad</p><i class="fas fa-list-ul fa-2x"></i></span>
+					<span><p>Seguridad</p><i class="fas fa-hard-hat fa-2x"></i></span>
+					<span><p>Integridad</p><i class="far fa-hand-paper fa-2x"></i></span>
+					<span><p>Trabajo en equipo</p><i class="fas fa-users fa-2x"></i></span>
+				</div>
 		</div>
 	</div>
 
