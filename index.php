@@ -17,7 +17,7 @@
 
 <?php require 'partials/header.php'; ?>
 
-
+<br><br>
 	<div class="contenido">
 		<div>
 			<h2>Nuestra empresa</h2>

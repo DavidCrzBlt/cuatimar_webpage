@@ -39,7 +39,7 @@ div form textarea{width:60%;}
 .contenido div p{text-align: justify;}
 .contenido div .valores{display: flex; width: 80%;margin-left: auto;margin-right: auto;}
 .contenido div .valores p{text-align: center;}
-.contenido div .valores span{text-align: center;}
+.contenido div .valores span{width: 20%;margin-left: auto;margin-right: auto;}
 
 
 @media screen and (max-width:800px){
