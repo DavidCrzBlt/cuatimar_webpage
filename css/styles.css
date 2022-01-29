@@ -33,13 +33,12 @@ div form textarea{width:60%;}
 
 #inicio{background-image: url("../images/diseno.jpg"); background-size: contain; background-repeat: no-repeat;}
 
-.contenido{width: 90%;margin-left: auto; margin-right: auto;background-color: #DBDBDB;padding: 15px;}
-.contenido div{color: #990D09; opacity: 0.9; border-radius: 8px;}
+.contenido{width: 90%;margin-left: auto; margin-right: auto;background-color: #DBDBDB;padding: 15px;color: #990D09; opacity: 0.9; border-radius: 8px;}
 .contenido div h2{text-align: center;font-weight: bold;}
 .contenido div p{text-align: justify;}
 .contenido div .valores{display: flex; width: 80%;margin-left: auto;margin-right: auto;}
 .contenido div .valores p{text-align: center;}
-.contenido div .valores i{width: 50%;margin-left: auto;margin-right: auto;}
+.contenido div .valores span i{width: 100%;margin-left: auto;margin-right: auto;text-align: center;}
 .contenido div .valores span{width: 20%;margin-left: auto;margin-right: auto;}
 
 
@@ -63,4 +62,5 @@ div form textarea{width:60%;}
     footer .footer_container{flex-direction: column;}
     footer .footer_container div{word-wrap: break-word; width: 80%;}
     .contenido div .valores{display: inline-block;width:90%; margin-left: auto;margin-right: auto;}
+    .contenido div .valores span i{width: 100%; text-align: center;}
   }
