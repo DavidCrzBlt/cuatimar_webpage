@@ -62,7 +62,8 @@
           </div>
           <div>
                <img src="Cuatimar_images/Barrenos.jpg" alt="Impermeabilizacion" class="img_services">
-          </div>                  
+          </div>
+          <br>              
      </div>
      <br>
      <?php require 'partials/footer.php'; ?>
