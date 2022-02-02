@@ -42,7 +42,9 @@ div form textarea{width:60%;}
 .contenido div .valores span{width: 20%;margin-left: auto;margin-right: auto;}
 
 .body{display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 10px;grid-auto-rows: minmax(100px, auto);}
-.body div img{max-width: 100%; width: 350px;}
+.body div h2{text-align: center;}
+.body div p{text-align: justify; padding: 20px;}
+.body div img{max-width: 100%; width: 350px; margin-right: auto; margin-left: auto;}
 
 
 @media screen and (max-width:800px){
@@ -66,4 +68,6 @@ div form textarea{width:60%;}
     footer .footer_container div{word-wrap: break-word; width: 80%;}
     .contenido div .valores{display: inline-block;width:100%; margin-left: auto;margin-right: auto;}
     .contenido div .valores span i{width: 100%; text-align: center;}
+
+    .body{display: grid; grid-template-columns: repeat(1, 1fr); grid-gap: 10px;grid-auto-rows: minmax(100px, auto);}
   }
