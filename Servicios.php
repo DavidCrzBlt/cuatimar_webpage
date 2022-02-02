@@ -12,7 +12,7 @@
      <script type="text/javascript" src="js/header_responsive.js"></script>
      <title>Servicios</title>
 </head>
-<body>
+<body id="inicio">
 
   <?php require 'partials/header.php' ?>
      <br>

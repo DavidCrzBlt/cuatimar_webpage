@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body id="inicio">
 
 <?php require 'partials/header.php'; ?>
 <br>
