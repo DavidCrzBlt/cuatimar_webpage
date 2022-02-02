@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,11 +15,11 @@
 <body>
 
   <?php require 'partials/header.php' ?>
-
+     <br>
      <div class="body">
            
           <div>
-               <h2>Impermeabilizacion</h2>
+               <h2>Impermeabilización</h2>
                <p>
                     Uno de los problemas más comunes cuando llega la temporada de lluvias es que se desgasta la techumbre y las láminas presentan filtraciones, pero lo peor viene en los andenes de carga y	descarga de materiales y/o materias primas puesto que no hay un buen sistema de bombeo de agua.<br>En Cuatimar ofrecemos una variedad de soluciones para evitar estos problemas y mantener tus almacenes en buen estado. Ya que nuestro personal está capacitado para realizar esas tareas,siempre teniendo en cuenta la seguridad y la urgencia de tu proyecto.
                </p>
@@ -64,7 +64,7 @@
                <img src="Cuatimar_images/Barrenos.jpg" alt="Impermeabilizacion" class="img_services">
           </div>                  
      </div>
-
+     <br>
      <?php require 'partials/footer.php'; ?>
 
 <script src="https://kit.fontawesome.com/6c35e6223b.js" crossorigin="anonymous"></script>
