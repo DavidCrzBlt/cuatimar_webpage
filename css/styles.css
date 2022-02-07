@@ -60,11 +60,13 @@ div form textarea{width:60%;}
       margin-top: 15px;margin-right: 10px;}
     .header_redes{display: none;}
     header nav{width: 60%;position: fixed;right:100%;margin: 0;overflow: scroll;top:16vh; background-color: #DFDFDF;}
-    header nav ul li{display: block;border-bottom: 1px solid #000;}
+    header nav ul li{display: block;border-bottom: 1px solid #000; position: relative;}
     header nav ul li a{display: block;}
     header nav ul li .children{width: 100%;position: relative;}
-    header nav ul li:hover .children{display: none;}
-      
+    header nav ul li:hover .children{display: block;}
+    header nav ul li .children{display: none; position: absolute;}
+    header nav ul li .children li{display: block;}
+    header nav ul li .children li a{display: block;}      
     footer .footer_container{flex-direction: column;}
     footer .footer_container div{word-wrap: break-word; width: 80%;}
     .contenido div .valores{display: inline-block;width:100%; margin-left: auto;margin-right: auto;}
