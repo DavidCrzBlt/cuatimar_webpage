@@ -5,7 +5,7 @@
 .icon_redes{width:20%; text-align: center;}
 .iconsa{color: #1C0C54; text-decoration: none;width:20%; text-align: center;}
 .iconsa:hover{color:#990D09;}
-header img{max-width: 150px;width:100%;}
+header img{max-width: 250px;width:100%;padding-left: 15px;}
 header{width:100%;display: flex;align-items: center; background-color: #DFDFDF}
 header nav{z-index:1000;max-width: 1000px; width: 95%; margin: 20px auto;}
 header nav ul{list-style: none;}
