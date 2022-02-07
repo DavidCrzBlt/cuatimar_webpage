@@ -63,8 +63,8 @@ div form textarea{width:60%;}
     header nav ul li{display: block;border-bottom: 1px solid #000; position: relative;}
     header nav ul li a{display: block;}
     header nav ul li .children{width: 100%;position: relative;}
-    header nav ul li:hover .children{display: block;}
-    header nav ul li .children{display: none; position: absolute;}
+    
+    header nav ul li .children{display: block;position: relative;}
     header nav ul li .children li{display: block;}
     header nav ul li .children li a{display: block;}      
     footer .footer_container{flex-direction: column;}
