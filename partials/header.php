@@ -37,8 +37,8 @@
       <ul>
         <li>
           <a href="index" class="menu_links">Inicio</a>
-          <ul class="children">
-            <li><a href="documents/Curriculum empresarial oficial.pdf" target="blank">Curriculum empresarial</a></li>
+          <ul>
+            <li class="children"><a href="documents/Curriculum empresarial oficial.pdf" target="blank">Curriculum empresarial</a></li>
           </ul>
         </li>
         <li><a href="Servicios" class="menu_links">Servicios</a></li>
