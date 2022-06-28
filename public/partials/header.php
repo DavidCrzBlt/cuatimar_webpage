@@ -1,32 +1,37 @@
 <header>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="container logo">
+        <a class="navbar-brand" href="/">
+          <img src="images/Cuatimar_logo.png" alt="Logo">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
-          </a>
-        </div>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index">Inicio</a>
+            <a class="nav-link fs-5 text-uppercase" href="index">
+              <!-- <i class="bi bi-house-fill"></i> -->
+              Inicio
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Servicios">Servicios</a>
+            <a class="nav-link fs-5 text-uppercase" href="Servicios">
+              <!-- <i class="bi bi-tags-fill"></i> -->
+              Servicios
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contacto">Contacto</a>
+            <a class="nav-link fs-5 text-uppercase" href="contacto">
+              <!-- <i class="bi bi-telephone-fill"></i> -->
+              Contacto
+            </a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
-
+  <br>
 </header>
