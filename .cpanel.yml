@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home3/cuatimar/repositories/cuatimar_webpage
+    - /bin/cp * $DEPLOYPATH
